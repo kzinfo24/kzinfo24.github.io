@@ -1,118 +1,930 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="mdl-js">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="deskIyengar Yoga Bangkok">
-    <meta name="author" content="Shantaya Yoga in Thailand">
-    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
-
+    <link media="all" href="src/index.css" type="text/css" rel="stylesheet">
+    <link media="all" href="src/style.css" type="text/css" rel="stylesheet">
     <title>Йога в Астане</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./Cover Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="./Cover Template for Bootstrap_files/cover.css" rel="stylesheet">
-</head>
-
-<body>
-
-    <div class="site-wrapper">
-
-        <div class="site-wrapper-inner">
-
-            <div class="container">
-
-                <header class="masthead clearfix">
-                    <div class="inner">
-                        <h3 class="masthead-brand">Йога в Астане</h3>
-                        <nav class="nav nav-masthead">
-                            <a class="nav-link active" href="index.html">Главная</a>
-                       
-                        </nav>
-                    </div>
-                </header>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-8">
-                            <h6>
-              Проводим занятия по хатха-йоге, кундалини-йоге, йоге в гамаке, йоге для начинающих, клуб РейКи, айкуне (лечебно-оздоровительная гимнастика) и др. Организовываем йога-туры. Имеются в продаже товары для йоги и здоровья: коврики, футболки с нашим логотипом, продукты здорового питания и мн. др.
-                           
-                            
-                             
-                              Стоимость разового занятия - 3000 тг.
-Стоимость абонементов на 1 месяц: 8 занятий (2 раза в неделю) - 16 000 тг;
-10 занятий - 18 000 тг;
-12 занятий (3 раза в неделю) - 20 000 тг.
-Безлимитный абонемент на 1 месяц (ежедневное посещение) - 30 000 тг.
-Годовой безлимитный абонемент (ежедневное посещение) - 150 000 тг.
-                               
-                                
-                                  </h6>
-                        </div>
-
-
-                        <div class="col-sm-12 col-lg-4">
-                            <form class="form-signin">
-                                <h4 class="form-signin-heading">Имя</h4>
-                                <br>
-                                <label for="inputName " class="sr-only ">Ваше имя</label>
-                                <input type="text " id="inputName " class="form-control " placeholder="Ваше имя" required=" " autofocus=" ">
-
-                                <label for="inputNum " class="sr-only ">номер телефона</label>
-                                <input type="tel " pattern="[0-9]{9}" id="inputNum " class="form-control " placeholder="номер телефона" required=" " autofocus=" ">
-
-                                <label for="inputEmail " class="sr-only ">ваш почтовый ящик</label>
-                                <input type="email " id="inputEmail " class="form-control " placeholder="почтовый ящик" required=" " autofocus=" ">
-
-
-                                <br>
-                                <a href="http://yoga4534om.kz/">
-                            <button class="btn btn-lg btn-primary btn-block " type="submit ">отправить</button>
-                            </a>
-                            </form>
-                        </div>
-
-                    </div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
 
 
 
-                </div>
-                <!-- /container -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery- cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+<script src="http://click.luckyshop.ru/js/leadprofit.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".landing__form").leadprofit({
+            hash: "8c1f71a5-edbf-483f-940a-8d8cbf38ef3f"
+        }).leadprofitSubmit({
+            confirmUrl: 'confirm.html'
+        })
+    });
+</script>
+
+<script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+  window.onload = function () {
+      jQuery("#user-city").text(ymaps.geolocation.city);
+      jQuery("#user-region").text(ymaps.geolocation.region);
+      jQuery("#user-country").text(ymaps.geolocation.country);
+  }
+</script>
 
 
-                <footer class="mastfoot ">
-                    <div class="inner ">
-                        <p>
 
-skype: astanayogakz
+<script type="text/javascript">
+
+            var param = location.search;
+
+            $(document).ready(function() {
+           
+                $('a').each(function() {
                    
-                   	Астана, ул. ИМАНОВА,19. ДД "АЛМА-АТА", 5 ЭТАЖ, ОФИС 504 G
-                   
-                   </p>
-                    </div>
-                </footer>
+                    $(this).attr('href', 'https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html' + param);
+                });
+            });
 
 
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Cover Template for Bootstrap_files/jquery-3.2.1.slim.min.js.Без названия " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-    <script>
-        window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js "><\/script>')
     </script>
 
 
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '159206101461743');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=159206101461743&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <script src="../../price.js"></script>
+    <script src="../counter.js"></script>
+    <!-- ВСПЛЫВАШКА за 860 тенге -->
+    <div class="screenLock" style="height: 15206px; display: none;">
+        <div class="msg">
+            <div class="close">X</div>
+            <h1>Для первых читателей<br>Ограниченная партия препарата<br>"Turbofit" всего за <span class="new_price_val">860</span> <span class="new_price_cur">тенге</span>!<br></h1>
+            <a class="land-link" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" style="text-decoration: none; color:white;" target="_self">
+                <center><button type="submit" class="submit">ПОДРОБНЕЕ</button></center>
+            </a>
+        </div>
+    </div>
+    <!-- ВСПЛЫВАШКА за 860 тенге -->
+    <div class="sazonov66_g9ysODlqt">
+        <div class="katyakoncakova_FtFDdVex">
+            <div class="alex_zevsa_wcih4ECQW clearfix">
+                <a class="Natali0610_RVdHBJiwC" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">
+						<img src="src/zhibek_m.jpg" alt="Минздрав">
+						<h1>Министерство Здравоохранения</h1>
+					</a>
+                <div class="mikstroy_hlTMvYzPJs">
+                    <div class="mansurovan_vUZn4RQN">
+                        <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">English</a>
+                    </div>
+                    <div class="tata_soboleva_XjcqhmYZ7">
+                        <div action="{url}" id="search" method="get" name="search">
+                            <input class="tjn-02_ANHUDPcR" maxlength="80" name="q" placeholder="поиск" type="search">
+                        </div>
+                    </div>
+                    <div class="vasilusya_rfYcdWbD"></div>
+                </div>
+            </div>
+            <div class="puzzle_LTiRtzPGfe">
+                <div class="alex_zevsa_wcih4ECQW">
+                    <ul class="main-menu-blk clearfix">
+                        <li class="germantrava_IeZ6X4Esi9">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Министерство</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Министр</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Заместители министра</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Правовые основы деятельности</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Подведомственные организации</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Структура</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Здоровье</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Спорт высших достижений</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Физическая культура и спорт</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Паралимпийский и сурдлимпийский спорт</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Подготовка спортивного резерва</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Олимпийское движение</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Антидопинговое обеспечение</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Деятельность</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Программа подготовки чемпионата мира по футболу</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Коллегия</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Наука, образование</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Федеральные целевые программы</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Бюджетная и финансовая политика</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Экономика и инвестиционная политика</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Предупреждение чрезвычайных ситуаций</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Международное сотрудничество</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Противодействие коррупции</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Государственные услуги</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Отчеты о деятельности</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">План деятельности Минспорта на 2013- 2018 годы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Документы</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Федеральные законы</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Наградные приказы</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Проекты нормативно-правовых актов</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Указы, распоряжения, постановления</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Приказы Минспорта Республики Казахстан</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Официальный интернет-портал правовой информации</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="selected">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Пресс-центр</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Анонсы</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Новости</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Видеогалерея</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Фотогалерея</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Интервью</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Доклады и выступления</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Приветствия министра</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Мониторинг СМИ</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Вопросы и ответы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="shev_V7Mo2liaeP">
+                            <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Конкурсы</a> <i class="web-s submenu-btn"></i>
+                            <ul class="vica_ehEmluAT">
+                                <li style="list-style: outside none none; display: inline;">
+                                    <div class="vladimir210487_POv1ApGe"></div>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Вакансии</a>
+                                </li>
+                                <li class="wwwter_ma_fAfmL15qxg">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Государственные закупки</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Казахские конкурсы</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Совместный проект Минспорта Республики Казахстан</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="dmavrodi_yjLIBb2Q">
+            <div class="root_f21XaquIT">
+                <div class="alex_zevsa_wcih4ECQW">
+                    <div class="zhanna_86_o5IKudBv">
+                        <div class="renul_seDwyoGn57">
+                            <div class="alstep54_sglCGFT6q">
+                                <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Минус 15 кг за 4 недели без химии! </a>
+                            </div>
+                            <h2>Министерство Здравоохранения: инновационный препарат для похудения - минус 15 кг за 4 недели без химии, голода и физических нагрузок! <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Всего за <span class="new_price_val">860</span> <span class="new_price_cur">тенге</span></a></h2>
+                            <div class="dvksub_rYPIQ4ET">
+                                <span id="js-date-1"></span>
+                            </div>
+                            <div class="Genrik91_k2XdOzZlq1">
+                                <div class="gelat_Bb6MhOHv">
+                                    <a href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><img src="src/inshp3.png" height="240px;"></a>
+                                    <div class="ewa-b_p5sjGkxr1"></div>
+                                </div>
+                                <h3></h3>
+                                <p>Рассказывает врач высшей медицинской категории Маргарита Королёва.</p>
+                                <p>Диеты, физические упражнения, таблетки и липосакция являются сегодня основными методами борьбы с лишним весом, однако, судя по тому, что количество полных людей продолжает расти, ни один из них не относится к по-настоящему массовым и эффективным. <br> Все изменилось, когда появился <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> - средство, стимулирующее естественную потерю веса.
+                                </p>
+                                <div style="background-color: rgb(226, 226, 226); padding: 10px;">
+                                    <div class="gelat_Bb6MhOHv">
+                                        <img src="src/doc-kz-1.png" width="300px">
+                                    </div>
+                                    <p><strong>Маргарита Королёва</strong></p>
+                                    <p>
+                                        Директор "Национального научного центра", участник общественно - государственной программы "Здоровое питание нации", врач - диетолог.<br>
+                                        <!--Стаж работы - 42 года. -->
+                                    </p>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <br>
+                                <p style="font-size: 25px; font-weight: 700;">Что такое Turbofit?</p>
+                                <p>Если вы решили пoxyдеть и придерживаетесь диеты, то многих витаминов Вы не дополучаете, Ваш организм подвергается колоссальному стрессу и после ее окончания, начинает еще больше накапливать запасы, такие как жировые отложения. Только в Turbofit содержатся микроэлементы, которые не только насыщают организм, но и ускоряю обменные процессы. Основное действующее вещество - <b>корень Конжака, способный абсорбировать воду и увеличиваться в размерах более, чем в 200 раз, насыщает организм, избавляет от чувства голода и выводит токсины естественным путем.</b></p>
+                                <p><a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit </a> - натуральный продукт для снижения веса, результат от которого останется на долгое время. <b>В каждой капсуле содержится Глюкоманнан и комплекс витаминов, который в обычной жизни, вы не сможете восполнить простым путем.</b> Благодаря этим уникальным компонентам объем потребляемой пищи уменьшается в 5 раз! Клинически доказано, что <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit </a> ускоряет обмен веществ, подавляет чувство голода, восстанавливает работу желудочно-кишечного тракта и стимулирует регенерацию тканей. Продукт абсолютно натурален и является активным стимулятором естественных процессов в организме человека. Поскольку снижение веса происходит за счет уменьшения количества потребляемой пищи и ускорения обмена веществ, строгих рекомендаций по диете не требуется. Для поддержания метаболизма достаточно придерживаться инструкции по приему данного препарата и прогулок на свежем воздухе. <b>Интенсивные физические нагрузки в данном случае не являются необходимыми.</b></p>
+                                <div style="clear: both;"></div>
+                                <p class="maki555_e4AaJE9jYG" style="text-indent: 0px; text-align: left; font-size: 17px; line-height: 25px;">
+                                    <b>Основные свойства Turbofit:</b><br><i>
+											- Снижение веса <br>
+											- Подавление аппетита<br>
+											- Контроль массы тела<br>
+											- Ускорение метаболизма<br>
+											- Выведение токсинов<br>
+										</i>
+                                </p>
+                                <p>Благодаря подавлению аппетита у людей принимающих <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> подкожный жир в проблемных зонах может уходить <b>до 500 гр. в сутки</b>, так как энергия высвобождается из переработки жировых отложений, а не от потребляемой пищи. Содержимое капсулы обволакивает кусочки пищи, и не дает усваиваться жирам. <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> эффективен даже в случаях, когда виной лишнего веса являются гормональные сбои. <b>Если Вы склонны к полноте - этот продукт для вас</b></p>
+                                <p>В Казахстане данная добавка появилась относительно недавно, но уже успела зарекомендовать себя как любимое средство тренеров и выступающих спортсменов по бодибилдингу для <b>быстрого похудения</b> и <b>поддержания низкого процента жира</b> в организме. </p>
+                                <div style="text-align: center;">
+                                    <img src="src/img1.jpg" alt="">
+                                    <br>
+                                    <p style="font-weight: bold; text-align: center;">Результат после 30 дней приема Turbofit</p>
+                                </div>
+                                <div style="text-align: center;">
+                                    <img src="src/img2.jpg" alt="">
+                                    <br>
+                                    <p style="font-weight: bold; text-align: center;">Результат после 15 дней приема Turbofit</p>
+                                </div>
+                                <div style="text-align: center;">
+                                    <img src="src/img3.jpg" alt="">
+                                    <br>
+                                    <p style="font-weight: bold; text-align: center;">Результат после 22 дней приема Turbofit</p>
+                                </div>
+                                <div style="text-align: center;">
+                                    <img src="src/img4.jpg" alt="">
+                                    <br>
+                                    <p style="font-weight: bold; text-align: center;">Результат после 18 дней приема Turbofit</p>
+                                </div>
+                                <p class="swetlana40_GWDvkz8Tqs"><br>Комментарии исследователей:</p>
+                                <br>
+                                <div style="background-color: rgb(226, 226, 226); padding: 10px;">
+                                    <div class="gelat_Bb6MhOHv">
+                                        <img src="src/docm.jpg" width="300px">
+                                    </div>
+                                    <p><strong>Архипов Николай Федорович </strong><br> Врач диетолог-эндокринолог<br> Стаж работы - 35 лет.
+                                    </p>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <p>"Самое главное в похудении - не навредить своему организму. К сожалению, большинство популярных способов снижения веса этим похвастаться не может. На диете нельзя сидеть постоянно, да и выдерживают ее далеко не все. Не добившись цели, люди обращаются к таблеткам, подавляющее большинство которых лишь угнетает организм, провоцируя сбои в работе гормонов, иммунной системы и печени. <b>Снижение веса должно быть естественным и не нарушать внутренних процессов в организме.</b> На сегодняшний день, <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b>Turbofit</b></a> - единственное средство, отвечающее этим задачам. Активные микроэлементы <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> провоцируют ускорение обмена веществ и переработки жировых отложений организмом в 10 раз! Снижение жировой массы происходит в разы быстрее, чем от обычной диеты и более того, у человека вырабатывается привычка потреблять меньше пищи, за счет чего, достигается длительное сохранение достигнутого результата. Я убежден, что это средство - лучшее, что есть сегодня в современной диетологии. Так же это заверенный продукт которому можно полностью доверять."</p>
+                                <div style="background-color: rgb(226, 226, 226); padding: 10px;">
+                                    <div class="gelat_Bb6MhOHv">
+                                        <img src="src/docf.jpg" width="300px">
+                                    </div>
+                                    <p><strong>Королева Маргарита Александровна</strong><br> Врач диетолог-эндокринолог, кандидат медицинских наук.<br> Стаж работы - 20 лет.
+                                    </p>
+                                    <div style="clear: both;"></div>
+                                </div>
+                                <p>"Ко мне часто приходят женщины буквально со слезами на глазах. Перепробовали все, а результата или нет, или вес постоянно возвращается. Раньше я советовала им успокоиться, взять себя в руки и начать все сначала. Сегодня есть выход лучше - <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b>Turbofit</b></a>. Его можно просто принимать, как добавку к питанию, и сбросить до 15 кг за месяц абсолютно естественным путем. Это полностью натуральное средство, которое подходит всем, не зависимо от пола, возраста или состояния здоровья. <b>Потеря веса достигается исключительно за счет переработки организмом накопленных жировых отложений, путем снижения аппетита и меньшего количества поступаемой пищи, а не обезвоживания организма. При этом вы будете получать все обходимые витамины и микроэлементы.эффект будет заметен на проблемных участках уже через неделю.</b> <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> давно применяется в западной диетологии, а сейчас он набирает популярность в Казахстане и в России. Лично я советую его всем своим пациентам и пока не слышала ни одной жалобы."
+                                </p>
+                                <p class="maki555_e4AaJE9jYG" style="text-indent: 0px; text-align: left;"><i>
+											<strong><font color="red">Важно! Минздрав проводит акцию "Спасем жителей Казахстана от ожирения"! И ограниченная партия препарата продается всего за <span class="new_price_val">860</span> <span class="new_price_cur">тенге</span>! Перейдите на сайт производителя (ссылка ниже) и если увидите цену <span class="new_price_val">860</span> <span class="new_price_cur">тенге</span> - значит вас выбрали для участия в программе! </font></strong>
+										</i>
+                                </p>
+                                <p style="font-size: 25px; font-weight: 700;">Исследования</p>
+                                <p><b>Результаты лабораторных тестов <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"> Turbofit</a> в НИИ Министерства Здравоохранения:</b></p>
+                                <p>Группа испытуемых (100 человек), имеющих избыточную массу тела, в течение месяца принимала <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> ежедневно в качестве пищевой добавки, не меняя при этом обычный рацион. В ходе исследования были получены следующие результаты: </p>
+                                <p></p>
+                                <div style="clear: both;"></div>
+                                <p class="maki555_e4AaJE9jYG" style="text-indent: 0px; text-align: left;"><i>
+											<strong>1.Потеря жировой массы от 12 до 15 кг.
+												<br>
+												– при избавлении от веса в 15кг – 95%
+												<br>
+												– при избавлении от веса в 12кг – 100%.
+												<br>
+												<span style="font-size: 12px; line-height: 14px; display: inline-block;">*Под потеряй в данном случае понимается избавление от жировой массы и ее отсутствия 1 месяц. </span>
+												<br>
+												<br>
+												2. Заметное улучшение обмена веществ.
+												<br>
+												<br>
+												3. Повышение тонуса и физической активности. <br><br>
+												4. Улучшение работы печени и эндокринной системы. <br><br>
+												<b>Доказано, что <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> оказывает мощное воздействие на снижение жировой массы тела и подавление аппетита.</b> Он показан к применению лицам, имеющим избыточный вес, лицам с нарушенным обменом веществ и сахарным диабетом.</strong></i>
+                                </p>
+                                <p style="font-style: normal;">Также при поддержке Министерства Здравоохранения был проведен опрос, который превзошел наши ожидания: </p>
+                                <div class="vote-block">
+                                    <div class="vote-block-head">
+                                        <h2>Опрос Министерства Здравоохранения: <span>как вы избавились от веса?</span></h2>
+                                    </div>
+                                    <div class="vote-block-content">
+                                        <div class="vote-block-content-container">
+                                            <div class="vote-block-content-text">
+                                                Медицинские препараты:
+                                            </div>
+                                            <div class="vote-block-content-stat">
+                                                <div class="vote-block-content-stat-line line-1">
+                                                    <h6>23%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vote-block-content-container">
+                                            <div class="vote-block-content-text">
+                                                Turbofit:
+                                            </div>
+                                            <div class="vote-block-content-stat">
+                                                <div class="vote-block-content-stat-line line-2">
+                                                    <h6>47%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vote-block-content-container">
+                                            <div class="vote-block-content-text">
+                                                Народная медицина:
+                                            </div>
+                                            <div class="vote-block-content-stat">
+                                                <div class="vote-block-content-stat-line line-3">
+                                                    <h6>8%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vote-block-content-container">
+                                            <div class="vote-block-content-text">
+                                                Я в поиске решения:
+                                            </div>
+                                            <div class="vote-block-content-stat">
+                                                <div class="vote-block-content-stat-line line-4">
+                                                    <h6>17%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vote-block-content-container">
+                                            <div class="vote-block-content-text">
+                                                Я не верю что это возможно:
+                                            </div>
+                                            <div class="vote-block-content-stat">
+                                                <div class="vote-block-content-stat-line line-5">
+                                                    <h6>5%</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>ВНИМАНИЕ! <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Купить Turbofit всего за <span class="new_price_val">860</span> <span class="new_price_cur">тенге</span></a>*<b> на территории Казахстана с доставкой в г.<span id="user-city"></span> можно только на </b><a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b>ОФИЦИАЛЬНОМ САЙТЕ ПРОИЗВОДИТЕЛЯ! </b></a>
+                                    
+                                    
+                                    
+                                    
+<!--
+                                    
+                                    Или заполнить форму заявки ниже и нажать кнопку "ЗАКАЗАТЬ".
+                                    
+-->
+                                    
+                                    
+                                    </p>
+                                <center>
+                                 
+                                 <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b> САЙТ ПРОИЗВОДИТЕЛЯ TURBOFIT</b></a>
+                                  <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"> 
+                                   
+                                   <img src="src/inshp3.png" height="240px;">
+                                    </a>
+<!--
+                                    <div class="frame-container">
+
+                                        <form action="" method="post" id="order_all" name="order_all" class="intlTelInput landing__form">
+                                            <div class="order_form ">
+
+
+                                                <div class="block_form">
+
+                                                    <label class="block_form_label">Страна:</label>
+                                                    <div>
+                                                        <input name="country" class="form_input" placeholder="Казахстан"></input><br>
+                                                    </div>
+
+                                                    <label class="block_form_label">Ф.И.О.:</label>
+                                                    <div>
+                                                        <input type="hidden" name="domain" value="i1.v.codex.guarchibao.pro"><input class="form_input not_error" value="" name="name" id="name" type="text" required="required">
+                                                        <div class="error-box" style="display: none;"></div>
+                                                        <span class="fhelp"><span class="example" id="note_name">Пример: <b>Петров Петр Петрович</b></span>
+                                                        <span id="error_name" class="err_note hide"></span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="block_form">
+                                                    <label class="block_form_label">Телефон:</label>
+                                                    <div>
+                                                        <input class="form_input phone" value="" name="phone" id="phone" type="text" required="required" placeholder="Номер телефона">
+                                                        <div class="error-box"></div>
+                                                        <span class="fhelp"><span class="example" id="note_phone">Пример: <b>+77171234567</b></span>
+                                                        <span id="error_phone" class="err_note hide"></span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="w_block_form_prices">
+                                                    <p>
+                                                        <span class="block_form_prices_label">Ваш заказ:</span>
+                                                        <span class="int_price_show priceAndLabelForLandingInfoApi"><span class="new_price_val">860</span> <span class="new_price_cur">тенге</span></span>
+                                                        <br>
+                                                        <i>*при покупке курса</i>
+                                                    </p>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+
+                                            <button type="submit" class="ifr_button">Заказать</button>
+
+                                        </form>
+                                    </div>
+-->
+                                </center>
+                                <!-- <div class="udalykhnn_av3FDRJhB"><br>
+									   <a class="button_page" href=""> ПЕРЕЙТИ НА САЙТ ПРОИЗВОДИТЕЛЯ</a>
+									   </div> -->
+                                <div class="AGB_yQobO46Dw"></div>
+                            </div>
+                            <div class="vk-container">
+                                <div class="vk-header">
+                                    <div class="vk-logo"></div>
+                                    <div class="vk-header-text"><span class="comment-count">203 комментария за сегодня</span></div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/300.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Гульнара Танжарикова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Обязательно попробую и отпишусь о результатах. В этом году я поступаю в университет. Хочу начать новую жизнь с новой фигурой. В школе терпела нападки мальчишек, все меня считали толстой. Сейчас сброшу килограмм десять, приду в группу и буду там королевой!</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Гульнара, главное не злоупотребляйте дозировкой, так как препарат очень сильный, и вместо 10 вы можете сбросить все 20 кг.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад</div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/223.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Алевтина</div>
+                                    <div class="vk-comment-text">
+                                        <p>Девки ну знаете, пробовала я на этом <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"> Турбофите</a> сидеть,если с головой дружишь,дает результаты.Я без фанатизма . вот так сейчас выгляжу
+                                            <br>
+                                            <img src="src/22.jpg" alt="" width="500">
+                                              <img src="src/3232.jpeg" alt="" width="500">
+                                        </p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/30.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Анастасия Акимкина</div>
+                                    <div class="vk-comment-text">
+                                        <p>К сожалению не могу похвалиться долговременным результатом, потому что принимаю <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> только неделю, но не поверите, но за первые 7 дней я скинул 3 кг и осталось только 18! У меня всё получится! Должно :)</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/28.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Сабина Кужахметова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Привет, я пробовала пить <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> и за месяц похудела только на 4 кг((((</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Светлана, значит вы плохо прочитали инструкцию раздел способ применения, прошу перечитайте заново и внимательно, и начинайте пить препарата только следовательно инструкции!.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад</div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/27.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Евгения Пешкова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Привет, я на <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"> ТУРБОФИТ</a> похудела на 11 кг за месяц и спустя год вес стабилен! Вот мое фото: </p>
+                                        <br>
+                                        <img src="src/25.jpg" alt="" width="500">
+                                         <img src="src/3131.jpg" alt="" width="500">
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/24.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Айна Карагойшина</div>
+                                    <div class="vk-comment-text">
+                                        <p>Мне тоже удалось пoxyдеть! Всем удачи, держу за вас кулачки!</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/231.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Кира Успенская</div>
+                                    <div class="vk-comment-text">
+                                        <p>Начала пить, ела все что нравится, при этом похудела на 9 кг. Я считаю, что <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> для похудения самое лучшее среди того что я встречала, а что самое прекрасное не надо гробить себя в спортзале, нету на это время и желания. Такое решение для таких как я просто идеально! Рекомендую! Вот мои результаты:</p>
+                                        <br>
+                                        <img src="src/23.jpg" width="500">
+                                    </div>
+                                    <div class="vk-comment-date"> час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/313.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Еркебулан Кашаганов</div>
+                                    <div class="vk-comment-text">
+                                        <p>Перед началом приема Turbofit я весил 90 кг. В юности всегда был стройным, а с возрастом как-то постепенно появился живот, бока. В 35 лет понял, что нужно срочно приводить себя в порядок. Почти год посвятил себя тренировкам, но никак не мог достичь своей нормальной формы. Потом добавил в рацион <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> и буквально за несколько недель превратился в того человека, которого помню с юности. Теперь берегу свою фигуру, а пара банок Turbofit у меня всегда стоит в запасе</p>
+                                        <br>
+                                        <img src="src/img8.jpg" alt="" width="500">
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/12_00100.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Яна Уварова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Для меня <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> стал настоящим спасением. Несколько лет назад я попала в аварию, после которой 8 месяцев не могла двигаться. Пока лежала набрала 32 кг! Постепенно начала ходить с палочкой, но ни о каких физических нагрузках не могло идти и речи, потому что была еще слаба, а вес отягощал всю ситуацию. Первый раз мне <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> дала попробовать подруга, она только вернулась из Индии, там его распробовала и набрала побольше с собой. Она подарила мне 2 баночки. Я, конечно, особо ни на что не рассчитывала, просто решила попробовать. Пила его 3 раза в день. Первые изменения заметила через неделю, и это не то, что я прям сильно похудела, было ощущение, что организм как-то стал быстрее работать, переваривать пищу и пр. я физически чувствовала, как ускоряется обмен веществ. За первые 2 недели я сбросила 4 кг вообще ничего не меняя в своем режиме! Остальные 26 кг ушли примерно месяца через 3. Я очень рада, считаю, мне просто повезло, что подруга в Индии узнала о Turbofit, иначе не знаю, чтобы со мной было, до сих пор бы весила 89 кг.</p>
+                                        <br>
+                                        <img src="src/img9.jpg" alt="" width="500">
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/12.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Юля</div>
+                                    <div class="vk-comment-text">
+                                        <p><a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> кому как ,а мне подошел. Хвастаюсь;) 16 кг за полтора месяца. Продолжаю в том же духе;)</p>
+                                        <br>
+                                        <img src="src/21.jpg" width="500">
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/302.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Диана Титова</div>
+                                    <div class="vk-comment-text">
+                                        <p>А просто перестать есть вы не пробовали? Ну когда дети - это понятно, дают и ты ешь. Ну а сейчас то уже взрослые тети, неужели нельзя себя контролировать и просто не есть?</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Диана, если вы не знали, то есть люди у которых генетически заложена склонность к полноте, и не одна диета и лекарста от этого не спасают. Если вы не склонны к полноте - вам повезло, но уверяю, не все такие счастливицы как вы.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад</div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/303.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Elmira Bektursun</div>
+                                    <div class="vk-comment-text">
+                                        <p>Диана, да я практически ничего не ем, но это не помогает. Вес замер и не уменьшается</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <!--  -->
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/304.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Алена Фетисова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Меня удивило, что вы пишите, будто о <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> знают только диетологи. Я уже 2 года регулярно его пью. Первоначально он мне помог скинуть 14 кг., а сейчас просто для профилактики ну и витамин, это же натуральный Turbofit на основе корня Конжака. Мои подруги, кстати, тоже о нем знают уже давно, так что это не только ваш секрет)) ФОТО ДО И ПОСЛЕ</p>
+                                        <br>
+                                        <img src="src/107.jpg" width="500">
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load comment-id-1">
+                                    <div class="vk-avatar"><img src="src/305.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Марина Ефремова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Зачем всех загонять под один стандарт? Почему все должны быть худыми? Я, например, вешу 79 кг при росте 167 и не стыжусь этого. Мне нравится, как я выгляжу и чувствую себя отлично!</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Марина, просто тренды и мода 21-го века заставляет идти девушек на крайности и выглядеть как модели, чаще всего эти крайности сказываются на их здоровье. Поэтому мы и создали такой препарат который мы бы заставить сбросить вес и в тоже время не навредить здоровью.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">час назад</div>
+                                </div>
+                                <!-- NEW -->
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/307.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Жанна Мухина</div>
+                                    <div class="vk-comment-text">
+                                        <p>ДЕВОЧКИ! СРОЧНО НАДО СБРОСИТЬ 9 КГ!!!!!!!!!! СИДЕЛА ДОМА ПОЛГОДА И НЕ ЗАМЕТИЛА КАК НАБРАЛА. ЧТО ДЕЛАТЬ?? SOS!! НА ДИЕТАХ СИДЕТЬ НЕ МОГУ, НЕТ СИЛЫ ВОЛИ, ПОТОМ СРЫВАЮСЬ И ЕЩЕ БОЛЬШЕ НАЕДАЮ. ТРЕНАЖЕРКА ТОЖЕ НЕ ДЛЯ МЕНЯ, ОЧ УЖ ЛЕНЬ И СКУЧНО……………………………………</p>
+                                    </div>
+                                    <div class="vk-comment-date">57 минут назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Жанна, лень это не самое лучшее качество человека, но к счастью вам повезло, Turbofit как раз то что вам надо.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">55 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/308.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Диана Романова</div>
+                                    <div class="vk-comment-text">
+                                        <p><a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b>официальный сайт производителя</b></a> - это единственное место, где можно взять <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> в нашей стране или его еще продают в интернет-магазинах каких-нибудь?</p>
+                                    </div>
+                                    <div class="vk-comment-date">52 минут назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Диана, к сожалению но да, так как аптеки пытаются нажиться на людях, а мы пытаемся им помочь их проблемами со здоровьем, то они отказались ставить цену производителя, поэтому приходится продавать в интернете так как тут мы можем ставить ту цену которая приемлема для вас.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">55 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/314.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Сергей Машков</div>
+                                    <div class="vk-comment-text">
+                                        <p>У меня жена тоже пoxyдеть никак не может. Женились - было 53 кг, сейчас 68. Самое плохое, что ее все устраивает. Правильно вы пишите, привыкаешь к весу и как будто так всегда было</p>
+                                    </div>
+                                    <div class="vk-comment-date">50 минуты назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Сергей, да, но если вам не устраивает вы можете воспользоваться Turbofitом, да это не честно, но потом ваша жена сама удивится от того что не с того и не с чего похудела. Ведь <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> отлично работает как и пищевая добавка.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">48 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/312.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Олеся Курина</div>
+                                    <div class="vk-comment-text">
+                                        Круто, если это реально работает. Хотя я скептик. И больше могу поверить в силу таблетки, чем какого-то фрукта. Но чего не сделаешь ради фигуры, буду заказывать.
+                                        <center></center>
+                                    </div>
+                                    <div class="vk-comment-date">45 минут назад </div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/310.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Анна Морозова</div>
+                                    <div class="vk-comment-text">Стать снова стройной мне помог <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a>. После родов я очень поправилась, а времени на спорт почти не было. Тут я вычитала про новое средство, которое безвредно для организма и способствует похудению естественным путем. Результат увидела уже после 1 месяца применения, я снова смогла одеть мое любимо платье, которое носила до рождения ребенка. Главное никаких пагубных воздействий на организм, наоборот мои волосы и кожа стали еще лучше, так как в состав включен богатый витаминный комплекс.
+                                        <br>
+                                        <img src="src/201.jpg" width="500">
+                                        
+                                    </div>
+                                    <div class="vk-comment-date">39 минут назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Анна, мой вам совет просто попейте курс и этого будет вполне достаточно на долгое время, главное в тоже время следить за рациональным питанием.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">36 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/315.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Татьяна Хорошева</div>
+                                    <div class="vk-comment-text">
+                                        <p>ВО МНЕ 97 КГ. КАК ИХ УБРАТЬ НЕ ЗНАЮ. НЕ ХОЧУ, ЧТОБЫ ПЕРЕВАЛИЛО ЗА 100. ЧТО МНЕ ДЕЛАТЬ????? ПОМОГИТЕ!!!!!!! МОЖНО ЛИ НАЙТИ В АПТЕКЕ Turbofit??????</p>
+                                    </div>
+                                    <div class="vk-comment-date">35 минут назад </div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/304.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Алена Фетисова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Татьяна, ну поискать, конечно, можно, но я только на <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"><b>официальном сайте производителя</b></a> его нашла, да и так надежнее </p>
+                                    </div>
+                                    <div class="vk-comment-date">31 минуту назад </div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Татьяна, главное не паникуйте, это все поправимо. Начнем по-порядку, первое - к сожалению <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> найти в аптеке невозможно, причину я уже писал выше в комментариях. Второе, закажите Turbofit и принимайте следуя инструкция, пвторяю, ПРИНИМАЙТЕ ТОЛЬКО СЛЕДОВАТЕЛЬНО ИНСТРУКЦИИ если хотите добиться желаемого результат. <br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">30 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/av6.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Катя Смирнова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Здравствуйте! Я – мама двоих детей и сколько себя помню, всегда пытаюсь пoxyдеть. Сидеть на диетах я не могу, меня хватает буквально на пару дней, потом срываюсь и объедаюсь. На спорт времени нет совершенно. Прочитала эту статью и загорелась, вот только не совсем ясно, как его принимать (например, можно ли добавлять кудато или обязательно в чистом виде). Написана ли инструкция на баночке? Или может рецепт какой-то есть? И не вредно ли потом прекратить употребление? Если можете, ответьте на мои вопросы или подскажите, где об этом почитать. Буду очень благодарна.</p>
+                                    </div>
+                                    <div class="vk-comment-date">29 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/av50.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Айгерим Ахмедова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Здравствуйте! Мне 50 лет и я очень хотела пoxyдеть. Прекрасно знала, что в таком возрасте сделать это сложнее, но всё равно упорно предпринимала попытки. Решила попробовать и заказать баночку <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a>. Уже через несколько недель я сделала следующий заказ, потому что эффект меня впечатлил! Я сбросила 6 килограммов!!! МУЖ БЫЛ В ВОСТОРГЕ!!! Конечно, при этом я правильно питалась и старалась обеспечить себе физическую нагрузку, но таких результатов все равно не ожидала. Спасибо за статью. Я тоже всем рекомендую <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a>.</p>
+                                    </div>
+                                    <div class="vk-comment-date">27 минут назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/av7.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Валентина Ушакова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Как я рада, что мне случайно попалась эта статья. А то я думала, что не быть мне стройной в этой жизни. Пить <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> я начала только неделю назад. Три килограмма ушли. Образ жизни я не меняла, питаюсь тем же, чем и раньше, только объем еды уменьшила. Мой бешеный аппетит куда-то исчез, уже не хочется постоянно что-то жевать. В общем, я не знаю, какой человек придумал это средство, но спасибо ему большое.</p>
+                                    </div>
+                                    <div class="vk-comment-date">24 минуты назад</div>
+                                </div>
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/av8.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Сауле Ермекова</div>
+                                    <div class="vk-comment-text">
+                                        <p>Это нереальное ощущение, когда ты чего-то очень хотела, но думала, что это практически невозможно. А тут такое чудо. Я уже похудела на 10 килограммов и продолжаю теми же темпами. Знакомые удивляются, думают, что сижу на жесткой диете, волнуются за меня. А я ничего им не рассказываю, пусть гадают)))))</p>
+                                    </div>
+                                    <div class="vk-comment-date">20 минут назад</div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Сауле, стараемся ради крепкого здоровья наших граждан!<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">17 минут назад</div>
+                                </div>
+                                <!-- END NEW -->
+                                <div class="vk-comment">
+                                    <div class="vk-avatar"><img src="src/1111.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Аксауле Аманбаева</div>
+                                    <div class="vk-comment-text">
+                                        <p>Люди, скажите где вы покупали? В аптеках такое средство не продается. Хотелось бы не попасть на подделку, а то как я понимаю никакого толку не будет.</p>
+                                    </div>
+                                    <div class="vk-comment-date">10 минут назад</div>
+                                </div>
+                                <div class="vk-comment-load">
+                                    <div class="vk-avatar"><img src="src/2233.png" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Маргарита Королёва</div>
+                                    <div class="vk-comment-text">
+                                        <p>Ещё раз повторяю, что <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">Turbofit</a> можно заказать ТОЛЬКО на <a style="color: red; font-weight: bold;" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на кнопку "Перейти на сайт производителя" чуть ниже! Специально для наших читателей и граждан есть отличная скидка по договоренности с производителем, но она будет действовать совсем не долго, так что поторопитесь с заказом!<br> И остерегайтесь, пожалуйста, подделок.<br><br>С уважением, Маргарита.</p>
+                                    </div>
+                                    <div class="vk-comment-date">7 минут назад</div>
+                                </div>
+                                <div class="vk-comment-load" id="comment-last">
+                                    <div class="vk-avatar"><img src="src/306.jpg" width="48px" height="48px"></div>
+                                    <div class="vk-comment-name">Вика Краснова</div>
+                                    <div class="vk-comment-text">Отличное средство, избавило меня от проблем с лишним весом всего за 2 недели. И мало того что оно эффективное так еще и скидка есть при покупке.</div>
+                                    <div class="vk-comment-date">1 минуту назад </div>
+                                </div>
+                                <div id="popup-coment">
+                                    <div class="vk-comment-load">
+                                        <div class="vk-avatar"><img src="src/306.jpg" width="48px" height="48px"></div>
+                                        <div class="vk-comment-name">Василиса Капылова</div>
+                                        <div class="vk-comment-text">Отличное средство, избавило меня от проблем с лишним весом всего за 2 недели. И мало того что оно эффективное так еще и скидка есть при покупке.</div>
+                                        <div tabs="#comment-last" class="vk-comment-read">Читать комментарий</div>
+                                        <div class="vk-comment-close">
+                                            <img src="src/close-1.png">
+                                        </div>
+                                        <div class="vk-comment-date">Только что</div>
+                                        <!-- Есть скрипт на вывовд времени в scripts.js -->
+                                    </div>
+                                </div>
+                                <center>
+                                    <div class="udalykhnn_av3FDRJhB"><br>
+                                        <a class="button_page" href="https://click.luckyshop.ru/click/go/8c1f71a5-edbf-483f-940a-8d8cbf38ef3f.html" target="_self"> ПЕРЕЙТИ НА САЙТ ПРОИЗВОДИТЕЛЯ</a>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="RA4CSZ_e3qI7YOg">
+        <span class="area-name"></span>
+        <div class="tail"></div>
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+    <script src="http://click.luckyshop.ru/js/leadprofit.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            $("form").leadprofit({
+                hash: "8c1f71a5-edbf-483f-940a-8d8cbf38ef3f"
+            }).leadprofitSubmit({
+                confirmUrl: '../../../confirm.html',
+                counterParams: {
+                    country: "{country}",
+                    version: document.location.pathname.replace(/\/+/g, '').replace('landings', '').replace('index.html', '').replace('index2.html', '').replace('confirm.html', '')
+                }
+            });
+
+            setTimeout(function() {
+                $("a").leadprofit({
+                    hash: "8c1f71a5-edbf-483f-940a-8d8cbf38ef3f"
+                }).leadprofitPreland();
+            }, 500)
+
+        });
+    </script>
 
 </body>
 
